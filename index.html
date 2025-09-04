@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicton du jour</title>
+    <!-- Importation de la favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- CDN font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- Importation des styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Début du header -->
+    <header>
+      <h1 class="title">Dicton du jour</h1>
+    </header>
+    <!-- Fin du header -->
+    <!-- Début du main -->
+    <main class="main__content">
+      <!-- Début de la section card__wrapper -->
+      <section class="card__wrapper">
+        <div class="card">
+          <div class="card__front">
+            <h2 class="card__title">
+              Aujourd'hui, nous sommes :<br /><span class="today"></span>
+            </h2>
+            <i class="arrow-icon fas fa-arrow-right"></i>
+          </div>
+          <div class="card__back">
+            <p class="card__quote"></p>
+          </div>
+        </div>
+      </section>
+      <!-- Fin de la section card__wrapper -->
+    </main>
+    <!-- Fin du main -->
+    <!-- Début du footer -->
+    <footer>
+      <p class="footer__text">
+        &copy; Copyright <span class="footer__text__year"></span>. Dicton du
+        jour.
+      </p>
+    </footer>
+    <!-- Fin du footer -->
+
+    <!-- Importation du fichier JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
