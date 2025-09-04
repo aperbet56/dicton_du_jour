@@ -113,6 +113,11 @@ header {
 
 .card__front .card__title {
     margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.card__front .today {
+    text-transform: uppercase;
 }
 
 .card__front .card__title,
@@ -155,7 +160,19 @@ footer {
 /**** Responsive design version mobile ****/
 
 @media screen and (max-width: 572px) {
+
+    .title {
+        font-size: 30px;
+    }
+
     .main__content {
         width: 90%;
+    }
+
+    .card__front .card__title,
+    .card__front .card__text,
+    .card__back .card__quote {
+        font-size: 20px;
+
     }
 }
