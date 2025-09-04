@@ -111,7 +111,12 @@ header {
     flex-direction: column;
 }
 
+.card__front .card__title {
+    margin-bottom: 20px;
+}
+
 .card__front .card__title,
+.card__front .card__text,
 .card__back .card__quote {
     font-size: 24px;
     text-align: center;
@@ -145,4 +150,12 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+}
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 572px) {
+    .main__content {
+        width: 90%;
+    }
 }
