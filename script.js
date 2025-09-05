@@ -13,6 +13,7 @@ console.log(currentYear);
 let nameOfDay;
 let quote;
 
+// L'instruction switch évalue une expression et, selon le résultat obtenu et le cas associé, exécute les instructions correspondantes.
 switch (dayOfWeekNumber) {
   case 0:
     nameOfDay = "Dimanche";
