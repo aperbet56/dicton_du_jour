@@ -7,7 +7,7 @@ Cette application affiche le jour et une citation sur le jour en question.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/dicton_du_jour/
 
 ## Projet développé avec
 
