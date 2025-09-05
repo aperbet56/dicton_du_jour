@@ -46,6 +46,7 @@ header {
     text-align: center;
     font-size: 36px;
     padding: 15px;
+    margin: 0;
     text-transform: uppercase;
 }
 
