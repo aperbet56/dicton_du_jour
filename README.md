@@ -1,5 +1,9 @@
 ## DICTON DU JOUR APP
 
+![Design preview for the dicton du jour projet](./img/banner-1.png)
+
+![Design preview for the dicton du jour projet](./img/banner-2.png)
+
 ## Le challenge
 
 Création d'une simple application "Dicton du jour" en HTML5, CSS3 et JavaScript.
