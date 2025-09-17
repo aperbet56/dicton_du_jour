@@ -1,7 +1,9 @@
 ## DICTON DU JOUR APP
 
+RECTO DE LA CARTE:
 ![Design preview for the dicton du jour projet](./img/banner-1.png)
 
+VERSO DE LA CARTE :
 ![Design preview for the dicton du jour projet](./img/banner-2.png)
 
 ## Le challenge
